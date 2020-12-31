@@ -9,6 +9,6 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String helloWorld(@RequestParam("name") String name){
-        return "This is a SpringBoot2 Hello World!"+name;
+        return "This is a SpringBoot2 Hello World!  "+name;
     }
 }
